@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Tailored Plumbing Solutions | Master Plumber &amp; Gas Fitter Adelaide</title>
+<meta content="South Australian Licensed Master Plumber (PGE 284102). 24/7 leak repairs, hot water units, gas fitting, and blocked drain clearing across Adelaide metro." name="description"/>
+<!-- Google Fonts: Plus Jakarta Sans -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS v3 with Forms & Container Queries -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              coral: '#ff4d42',
+              coralHover: '#e03e34',
+              coralLight: '#fff1f0',
+              dark: '#111317',
+              charcoal: '#1a1d24',
+              surface: '#f9fafb',
+              border: '#e5e7eb'
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+<!-- BEGIN: Custom CSS -->
+<style data-purpose="custom-layout">
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      color: #111317;
+      background-color: #ffffff;
+      -webkit-font-smoothing: antialiased;
+    }
+    
+    /* Diagonal subtle pattern matching Plumco dark strip */
+    .pattern-diagonal-stripes {
+      background-color: #111317;
+      background-image: repeating-linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.02) 0px,
+        rgba(255, 255, 255, 0.02) 2px,
+        transparent 2px,
+        transparent 14px
+      );
+    }
+
+    /* Subtle shadow styles */
+    .shadow-plumco {
+      box-shadow: 0 10px 40px -15px rgba(0, 0, 0, 0.05);
+    }
+    .shadow-hover:hover {
+      box-shadow: 0 20px 45px -12px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+<!-- END: Custom CSS -->
+</head>
+<body class="bg-white text-slate-900 antialiased selection:bg-brand-coral selection:text-white">
+<!-- BEGIN: NavigationBar -->
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 transition-all duration-300">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
+<!-- Brand Logo -->
+<a class="flex items-center gap-2 group" data-purpose="brand-logo" href="#hero">
+<div class="w-8 h-8 rounded-lg bg-brand-coral flex items-center justify-center text-white font-bold text-lg shadow-sm transition-transform group-hover:scale-105">
+<svg class="w-4 h-4 fill-current" viewbox="0 0 24 24">
+<path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"></path>
+</svg>
+</div>
+<div class="flex flex-col">
+<span class="text-xl font-extrabold tracking-tight text-slate-900 leading-tight">
+            Tailored<span class="text-brand-coral">Plumbing</span>
+</span>
+<span class="text-[10px] tracking-wider uppercase font-semibold text-slate-400">PGE 284102 • Adelaide</span>
+</div>
+</a>
+<!-- Desktop Navigation Menu -->
+<nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600" data-purpose="primary-navigation">
+<a class="text-slate-900 hover:text-brand-coral transition-colors flex items-center gap-1 font-semibold" href="#hero">
+          Home
+          <svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
+</a>
+<a class="hover:text-brand-coral transition-colors" href="#about">About</a>
+<a class="hover:text-brand-coral transition-colors flex items-center gap-1" href="#services">
+          Services
+          <svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
+</a>
+<a class="hover:text-brand-coral transition-colors" href="#projects">Projects</a>
+<a class="hover:text-brand-coral transition-colors" href="#reviews">Reviews</a>
+<a class="hover:text-brand-coral transition-colors" href="#articles">Articles</a>
+</nav>
+<!-- Right Header Actions -->
+<div class="flex items-center gap-4" data-purpose="header-cta-group">
+<!-- Emergency indicator badge -->
+<div class="hidden xl:flex items-center gap-2 px-3 py-1 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded-full border border-emerald-100">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+</span>
+          24/7 Rapid Dispatch
+        </div>
+<!-- Phone / Contact CTA Button -->
+<a class="inline-flex items-center justify-center gap-2 bg-brand-coral hover:bg-brand-coralHover text-white px-5 py-2.5 rounded-md font-semibold text-sm transition-all duration-200 shadow-sm shadow-red-200 hover:-translate-y-0.5" href="tel:+61413544898">
+<span>Contact us</span>
+<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M7 17L17 7M17 7H7M17 7V17" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+</svg>
+</a>
+</div>
+</div>
+</header>
+<!-- END: NavigationBar -->
+<main>
+<!-- BEGIN: HeroSection -->
+<section class="relative pt-12 pb-16 lg:pt-20 lg:pb-24 overflow-hidden" data-purpose="hero-section" id="hero">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Hero Left Column: Copy & Action -->
+<div class="lg:col-span-7 space-y-6">
+<!-- Eyebrow Tag -->
+<p class="text-xs uppercase tracking-widest font-bold text-brand-coral">
+              Quality plumbing service in Adelaide
+            </p>
+<!-- Main Headline matching Plumco aesthetic -->
+<h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold text-slate-900 tracking-tight leading-[1.08]">
+              Hire expert for <br class="hidden sm:inline"/>your zone
+            </h1>
+<!-- Subtitle -->
+<p class="text-base sm:text-lg text-slate-500 max-w-xl font-normal leading-relaxed">
+              Master licensed gas fitters and drainage specialists delivering guaranteed residential &amp; commercial plumbing repairs, unblocking, and architectural tapware fit-outs across Adelaide.
+            </p>
+<!-- Action Buttons -->
+<div class="flex flex-wrap items-center gap-4 pt-4">
+<!-- Primary Action -->
+<a class="inline-flex items-center justify-center gap-2 bg-brand-coral hover:bg-brand-coralHover text-white font-bold px-7 py-3.5 rounded-md text-sm transition-all shadow-md shadow-red-100 hover:-translate-y-0.5" href="tel:+61413544898">
+<span>Hire Expert</span>
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M7 17L17 7M17 7H7M17 7V17" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+</svg>
+</a>
+<!-- Secondary Action -->
+<a class="inline-flex items-center justify-center gap-2 bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold px-6 py-3.5 rounded-md text-sm transition-colors border border-slate-200" href="#services">
+<svg class="w-4 h-4 text-brand-coral" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<span>Our services</span>
+</a>
+</div>
+<!-- Licensing and Operating Details Subtext -->
+<div class="pt-4 flex flex-wrap items-center gap-6 text-xs text-slate-500 font-medium">
+<span class="flex items-center gap-1.5">
+<svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" fill-rule="evenodd"></path></svg>
+                SA PGE 284102 Certified
+              </span>
+<span class="flex items-center gap-1.5">
+<svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" fill-rule="evenodd"></path></svg>
+                $20M Public Liability Insured
+              </span>
+<span class="flex items-center gap-1.5">
+<svg class="w-4 h-4 text-brand-coral" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                Mon - Sat: 7am - 9pm | Sun: 24/7 Emergency
+              </span>
+</div>
+</div>
+<!-- Hero Right Column: Circle Plumber Avatar Layout mirroring Plumco template -->
+<div class="lg:col-span-5 flex justify-center lg:justify-end">
+<div class="relative w-80 h-80 sm:w-96 sm:h-96 lg:w-[420px] lg:h-[420px]">
+<!-- Circular image clipping container -->
+<div class="w-full h-full rounded-full overflow-hidden border-8 border-slate-50 shadow-2xl relative bg-slate-100 ring-1 ring-slate-200">
+<img alt="Tailored Plumbing Solutions master plumber on site in Adelaide" class="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1XQBRub9or1Dmc3mPhhjkTMgGJoWEbNnmfJK2xL_Bu6Ug9CfooN0UHrR6sjEE4o-q4WX0qCXMKgQK5bEBN8h4evcN8UtaaEXoAxz_gNrXUm9XcvKixN_AZJ5wPONiFLDpR-p-lJzVcK_msdvRyYZWkO3q7QfSPnNE8nSs_XC1XV8LtbKEdpTVjPR3YAeUT9wb6k7zJqN2dHOR9TqKplogpZUkIN4qEblWYMlHp8kcjbHDRIG6ycVNxcUZg"/>
+</div>
+<!-- Floating badge top right -->
+<div class="absolute -top-3 right-6 bg-white px-4 py-2 rounded-full shadow-lg border border-slate-100 flex items-center gap-2">
+<span class="text-yellow-400 text-sm">★★★★★</span>
+<span class="text-xs font-bold text-slate-800">4.9/5 Adelaide Reviews</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Collaborations / Partners Bar matching Plumco -->
+<div class="mt-20 pt-8 border-t border-slate-100" data-purpose="partners-bar">
+<p class="text-xs font-semibold text-slate-400 mb-6">
+            We are fortunate to collaborate <span class="text-slate-600">with leading suppliers &amp; building partners</span>
+</p>
+<div class="flex flex-wrap items-center justify-between gap-6 opacity-75 grayscale hover:grayscale-0 transition-all duration-300">
+<div class="flex items-center gap-2 font-bold text-lg text-slate-800 tracking-tight">
+<span class="w-2.5 h-2.5 rounded-full bg-brand-coral inline-block"></span> Cleanto
+            </div>
+<div class="flex items-center gap-2 font-bold text-lg text-slate-800 tracking-tight">
+<span class="w-2.5 h-2.5 rounded-full bg-slate-900 inline-block"></span> Genixus
+            </div>
+<div class="flex items-center gap-2 font-bold text-lg text-slate-800 tracking-tight">
+<span class="w-2.5 h-2.5 rounded-full bg-slate-900 inline-block"></span> Neeron
+            </div>
+<div class="flex items-center gap-2 font-bold text-lg text-slate-800 tracking-tight">
+<span class="w-2.5 h-2.5 rounded-full bg-slate-900 inline-block"></span> Outriva
+            </div>
+<div class="flex items-center gap-2 font-bold text-lg text-slate-800 tracking-tight">
+<span class="w-2.5 h-2.5 rounded-full bg-brand-coral inline-block"></span> Rheem SA
+            </div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: ExpertiseSection -->
+<section class="py-24 bg-brand-surface relative border-t border-slate-100" data-purpose="services-grid" id="services">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<!-- Section Header -->
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="text-brand-coral font-bold tracking-widest uppercase text-xs">
+            Expertise
+          </span>
+<h2 class="text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight mt-2">
+            Professional plumbing tailored to your property
+          </h2>
+<p class="text-slate-500 mt-4 text-sm sm:text-base">
+            From precision acoustic water leak detection to high-pressure drain hydro-jetting and instantaneous gas upgrades.
+          </p>
+</div>
+<!-- 6-Grid Services Matching Plumco Minimalist White Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
+<!-- Card 1 -->
+<article class="bg-white p-10 rounded-xl border border-slate-100 shadow-plumco shadow-hover transition-all duration-300 relative group flex flex-col justify-between h-64">
+<div>
+<div class="w-10 h-10 rounded-full bg-slate-50 group-hover:bg-brand-coral group-hover:text-white flex items-center justify-center text-slate-400 transition-colors mb-6">
+<svg class="w-4 h-4 transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M7 17L17 7M17 7H7M17 7V17" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<h3 class="text-xl font-bold text-slate-900 group-hover:text-brand-coral transition-colors">
+                Leak repair &amp;<br/>Cleaning
+              </h3>
+</div>
+<p class="text-xs text-slate-400 leading-relaxed">
+              Pinpoint thermal and acoustic burst pipe detection behind walls and beneath concrete slabs with zero needless demolition.
+            </p>
+</article>
+<!-- Card 2 -->
+<article class="bg-white p-10 rounded-xl border border-slate-100 shadow-plumco shadow-hover transition-all duration-300 relative group flex flex-col justify-between h-64">
+<div>
+<div class="w-10 h-10 rounded-full bg-slate-50 group-hover:bg-brand-coral group-hover:text-white flex items-center justify-center text-slate-400 transition-colors mb-6">
+<svg class="w-4 h-4 transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M7 17L17 7M17 7H7M17 7V17" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<h3 class="text-xl font-bold text-slate-900 group-hover:text-brand-coral transition-colors">
+                Heater installation<br/>and repair
+              </h3>
+</div>
+<p class="text-xs text-slate-400 leading-relaxed">
+              Same-day hot water emergency changeovers: continuous flow gas, solar heat pumps, and energy-efficient electric storage systems.
+            </p>
+</article>
+<!-- Card 3 -->
+<article class="bg-white p-10 rounded-xl border border-slate-100 shadow-plumco shadow-hover transition-all duration-300 relative group flex flex-col justify-between h-64">
+<div>
+<div class="w-10 h-10 rounded-full bg-slate-50 group-hover:bg-brand-coral group-hover:text-white flex items-center justify-center text-slate-400 transition-colors mb-6">
+<svg class="w-4 h-4 transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M7 17L17 7M17 7H7M17 7V17" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<h3 class="text-xl font-bold text-slate-900 group-hover:text-brand-coral transition-colors">
+                Whole-house water<br/>filtration
+              </h3>
+</div>
+<p class="text-xs text-slate-400 leading-relaxed">
+              Complete multi-stage water filtration and softening units ensuring pure, clean drinking water throughout your Adelaide home.
+            </p>
+</article>
+<!-- Card 4 -->
+<article class="bg-white p-10 rounded-xl border border-slate-100 shadow-plumco shadow-hover transition-all duration-300 relative group flex flex-col justify-between h-64">
+<div>
+<div class="w-10 h-10 rounded-full bg-slate-50 group-hover:bg-brand-coral group-hover:text-white flex items-center justify-center text-slate-400 transition-colors mb-6">
+<svg class="w-4 h-4 transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M7 17L17 7M17 7H7M17 7V17" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<h3 class="text-xl font-bold text-slate-900 group-hover:text-brand-coral transition-colors">
+                Softener installation<br/>and repair
+              </h3>
+</div>
+<p class="text-xs text-slate-400 leading-relaxed">
+              Advanced ion-exchange water softeners tailored for Adelaide's hard water mineral profile, protecting copper pipes &amp; luxury fixtures.
+            </p>
+</article>
+<!-- Card 5 -->
+<article class="bg-white p-10 rounded-xl border border-slate-100 shadow-plumco shadow-hover transition-all duration-300 relative group flex flex-col justify-between h-64">
+<div>
+<div class="w-10 h-10 rounded-full bg-slate-50 group-hover:bg-brand-coral group-hover:text-white flex items-center justify-center text-slate-400 transition-colors mb-6">
+<svg class="w-4 h-4 transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M7 17L17 7M17 7H7M17 7V17" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<h3 class="text-xl font-bold text-slate-900 group-hover:text-brand-coral transition-colors">
+                Sump pump<br/>installation &amp; repair
+              </h3>
+</div>
+<p class="text-xs text-slate-400 leading-relaxed">
+              Basement, storm-cellar, and underground drainage pumping stations with automated smart float switches &amp; battery back-ups.
+            </p>
+</article>
+<!-- Card 6 -->
+<article class="bg-white p-10 rounded-xl border border-slate-100 shadow-plumco shadow-hover transition-all duration-300 relative group flex flex-col justify-between h-64">
+<div>
+<div class="w-10 h-10 rounded-full bg-slate-50 group-hover:bg-brand-coral group-hover:text-white flex items-center justify-center text-slate-400 transition-colors mb-6">
+<svg class="w-4 h-4 transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M7 17L17 7M17 7H7M17 7V17" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<h3 class="text-xl font-bold text-slate-900 group-hover:text-brand-coral transition-colors">
+                Drain unblocking &amp;<br/>CCTV camera inspection
+              </h3>
+</div>
+<p class="text-xs text-slate-400 leading-relaxed">
+              5000 PSI high-pressure hydro-jetting, tree root cutting, and HD color drain inspections with recorded footage report.
+            </p>
+</article>
+</div>
+<!-- Center Dark Action Button matching Plumco -->
+<div class="text-center mt-12">
+<a class="inline-flex items-center gap-2 bg-slate-900 hover:bg-black text-white text-xs uppercase tracking-wider font-bold px-8 py-3.5 rounded-md transition-all" href="tel:+61413544898">
+<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7V17" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
+            All Services
+          </a>
+</div>
+</div>
+</section>
+<!-- END: ExpertiseSection -->
+<!-- BEGIN: TrustSection -->
+<section class="py-24 bg-white relative overflow-hidden" data-purpose="trust-section" id="about">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Left Column: Trust Value Proposition -->
+<div class="lg:col-span-6 space-y-6">
+<span class="text-xs font-bold tracking-widest text-brand-coral uppercase">
+              Quality
+            </span>
+<h2 class="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
+              You can trust<br/>for this reason
+            </h2>
+<p class="text-slate-500 text-base leading-relaxed">
+              Tailored Plumbing Solutions has delivered uncompromising workmanship across Greater Adelaide for over 20 years. We arrive on schedule in fully equipped service vans, quote upfront fixed rates before starting, and leave your home spotless.
+            </p>
+<div class="space-y-4 pt-2">
+<div class="flex items-start gap-4">
+<div class="w-6 h-6 rounded-full bg-brand-coralLight text-brand-coral flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-3.5 h-3.5 font-bold" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path></svg>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 text-sm">Upfront Transparent Fixed Pricing</h4>
+<p class="text-xs text-slate-500 mt-0.5">No hidden call-out shocks or hourly blowouts. What we quote is what you pay.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-6 h-6 rounded-full bg-brand-coralLight text-brand-coral flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-3.5 h-3.5 font-bold" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path></svg>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 text-sm">Lifetime Workmanship Guarantee</h4>
+<p class="text-xs text-slate-500 mt-0.5">Full compliance certification provided with every drainage and gas installation.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-6 h-6 rounded-full bg-brand-coralLight text-brand-coral flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-3.5 h-3.5 font-bold" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path></svg>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 text-sm">Clean Trade Promise</h4>
+<p class="text-xs text-slate-500 mt-0.5">We wear boot covers, lay protective drop cloths, and thoroughly sanitize our work area.</p>
+</div>
+</div>
+</div>
+<div class="pt-4">
+<a class="inline-flex items-center gap-2 text-sm font-bold text-brand-coral hover:text-brand-coralHover group" href="tel:+61413544898">
+<span>Speak directly with our Master Plumber</span>
+<span class="group-hover:translate-x-1 transition-transform">→</span>
+</a>
+</div>
+</div>
+<!-- Right Column: Visual with Overlapping Stat Box matching Plumco -->
+<div class="lg:col-span-6 flex justify-center lg:justify-end">
+<div class="relative max-w-md w-full">
+<!-- Image with subtle monochrome treatment matching template -->
+<div class="rounded-2xl overflow-hidden bg-slate-100 shadow-xl border border-slate-100">
+<img alt="Tailored Plumbing Adelaide licensed specialist" class="w-full h-auto object-cover grayscale contrast-125 brightness-95" src="https://lh3.googleusercontent.com/aida/AEtjO1WN5gaTo1WHVl-K0GJL7ynPYFjuJ1m8tsU2mXlTWW1shdgwURMX_qQsCrn10NqRZhnghkfaHfocx2KLDR_KdoX3Gv3qlxlEBKsyYUh2U_Ru-SZ56dJ1XIiCkj5GglOYZuj-QPuV3qVwLnmqOkUfj5KTOTme2uYmlWTY-p456kg5JEkMWAYemLg6KQjijNecwHciYha6X4Wt02M9SQzUSyc9XzWH5P7YCUu2k6y3Fja2cIKC1t5dAkQNv_64"/>
+</div>
+<!-- Floating Black Badge with "99%+ Project Completed" -->
+<div class="absolute -bottom-6 -left-6 bg-slate-900 text-white p-6 rounded-xl shadow-2xl border border-slate-800 max-w-xs" data-purpose="floating-stat-box">
+<div class="flex items-baseline gap-1">
+<span class="text-4xl font-extrabold tracking-tight text-white">99%</span>
+<span class="text-brand-coral text-2xl font-bold">+</span>
+</div>
+<p class="text-xs text-slate-300 font-medium mt-1 uppercase tracking-wider">
+                  Project Completed
+                </p>
+<div class="mt-3 pt-3 border-t border-slate-800 flex items-center gap-2">
+<span class="text-xs text-slate-400">South Australia Master Plumber PGE 284102</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: TrustSection -->
+<!-- BEGIN: ProjectsShowcase -->
+<section class="py-24 pattern-diagonal-stripes text-white relative overflow-hidden" data-purpose="projects-section" id="projects">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<!-- Header Strip -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
+<div>
+<h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
+              Our projects,<br/>Our satisfaction
+            </h2>
+</div>
+<div>
+<a class="inline-flex items-center gap-2 bg-slate-800/80 hover:bg-slate-700 text-white text-xs font-bold uppercase tracking-wider px-6 py-3 rounded border border-slate-700 transition-colors" href="tel:+61413544898">
+<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7V17" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
+              All projects
+            </a>
+</div>
+</div>
+<!-- Project Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Project 1: Modern Copper & Chrome Renovation -->
+<article class="group rounded-2xl overflow-hidden bg-slate-800 border border-slate-800 hover:border-slate-700 transition-all duration-300">
+<div class="aspect-w-16 aspect-h-10 w-full h-80 overflow-hidden relative">
+<img alt="Adelaide architectural under-sink copper and chrome installation" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1VeZnZC7FwseYwO44Qedtrc7RN32Dt72GkMs34yw4GYAhKhNV1GYgKLGPqyS6fLKbzxRl9Y5d0BHDKqd79rKYgULsTPgzl68uyvYTQZhe0NeUmelwwfAhXjE3xwwfjp_r8bztYBj_XM5oCrzE6TdARpyzJo1ZzYww-B-pnkKF7pNkCS9yuT3B2o2UEPDwujT8TcnI1TPJ35-e2faO_JmqQfDJNMZIIdMoNMEJdMEuTJpztJIOFhJyzShYfN"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6">
+<span class="text-[11px] font-bold text-brand-coral uppercase tracking-widest bg-black/50 px-2.5 py-1 rounded backdrop-blur-sm">
+                  Architectural Bathroom
+                </span>
+<h3 class="text-xl font-bold text-white mt-2">
+                  Unley Luxury Residence Tapware &amp; Copper Line Re-Route
+                </h3>
+</div>
+</div>
+</article>
+<!-- Project 2: Commercial & Architectural Drainage -->
+<article class="group rounded-2xl overflow-hidden bg-slate-800 border border-slate-800 hover:border-slate-700 transition-all duration-300">
+<div class="aspect-w-16 aspect-h-10 w-full h-80 overflow-hidden relative">
+<img alt="Modern kitchen gas plumbing and water filtration installation" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1XQBRub9or1Dmc3mPhhjkTMgGJoWEbNnmfJK2xL_Bu6Ug9CfooN0UHrR6sjEE4o-q4WX0qCXMKgQK5bEBN8h4evcN8UtaaEXoAxz_gNrXUm9XcvKixN_AZJ5wPONiFLDpR-p-lJzVcK_msdvRyYZWkO3q7QfSPnNE8nSs_XC1XV8LtbKEdpTVjPR3YAeUT9wb6k7zJqN2dHOR9TqKplogpZUkIN4qEblWYMlHp8kcjbHDRIG6ycVNxcUZg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6">
+<span class="text-[11px] font-bold text-brand-coral uppercase tracking-widest bg-black/50 px-2.5 py-1 rounded backdrop-blur-sm">
+                  Kitchen &amp; Gas Service
+                </span>
+<h3 class="text-xl font-bold text-white mt-2">
+                  Norwood Full Kitchen Renovation &amp; Smart Filtration Unit
+                </h3>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- END: ProjectsShowcase -->
+<!-- BEGIN: TestimonialsSection -->
+<section class="py-24 bg-white" data-purpose="testimonials-section" id="reviews">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<!-- Section Header matching Plumco -->
+<div class="max-w-2xl mb-16">
+<h2 class="text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
+            Insure quality to<br/>get satisfaction
+          </h2>
+</div>
+<!-- 3-Column Reviews -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Testimonial 1 -->
+<div class="bg-brand-surface p-8 rounded-xl border border-slate-100 flex flex-col justify-between h-full">
+<div>
+<div class="flex items-center gap-3 mb-6">
+<div class="w-12 h-12 rounded-full bg-slate-200 overflow-hidden flex items-center justify-center font-bold text-slate-600 text-sm">
+                  RB
+                </div>
+<div>
+<h4 class="font-bold text-sm text-slate-900">Randy Baptista</h4>
+<p class="text-xs text-slate-400">Burnside Homeowner</p>
+</div>
+</div>
+<div class="text-yellow-400 text-xs mb-3">★★★★★</div>
+<p class="text-xs text-slate-500 leading-relaxed font-normal">
+                "Had a severe burst pipe on a Sunday night. Tailored Plumbing arrived inside 35 minutes, isolated the leak acoustic-style under the concrete driveway, and had full water restored with zero stress. Truly remarkable Adelaide tradesmen."
+              </p>
+</div>
+<div class="mt-8 pt-4 border-t border-slate-200/60 flex items-center justify-between text-[11px] text-slate-400 font-medium">
+<span>Leak Detection &amp; Repair</span>
+<span>Verified Customer</span>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="bg-brand-surface p-8 rounded-xl border border-slate-100 flex flex-col justify-between h-full">
+<div>
+<div class="flex items-center gap-3 mb-6">
+<div class="w-12 h-12 rounded-full bg-slate-200 overflow-hidden flex items-center justify-center font-bold text-slate-600 text-sm">
+                  SV
+                </div>
+<div>
+<h4 class="font-bold text-sm text-slate-900">Sophie Vandermeer</h4>
+<p class="text-xs text-slate-400">Prospect Resident</p>
+</div>
+</div>
+<div class="text-yellow-400 text-xs mb-3">★★★★★</div>
+<p class="text-xs text-slate-500 leading-relaxed font-normal">
+                "We upgraded from an old rusted electric hot water tank to a continuous flow gas system. Upfront price was honored down to the cent, clean workmanship, and they even tidied the external brickwork. Outstanding service!"
+              </p>
+</div>
+<div class="mt-8 pt-4 border-t border-slate-200/60 flex items-center justify-between text-[11px] text-slate-400 font-medium">
+<span>Hot Water Installation</span>
+<span>Verified Customer</span>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="bg-brand-surface p-8 rounded-xl border border-slate-100 flex flex-col justify-between h-full">
+<div>
+<div class="flex items-center gap-3 mb-6">
+<div class="w-12 h-12 rounded-full bg-slate-200 overflow-hidden flex items-center justify-center font-bold text-slate-600 text-sm">
+                  DH
+                </div>
+<div>
+<h4 class="font-bold text-sm text-slate-900">David Harrington</h4>
+<p class="text-xs text-slate-400">Adelaide Hills Commercial</p>
+</div>
+</div>
+<div class="text-yellow-400 text-xs mb-3">★★★★★</div>
+<p class="text-xs text-slate-500 leading-relaxed font-normal">
+                "Tailored Plumbing diagnosed recurring tree-root blockages in our commercial sewer lines using CCTV inspection. Cleared cleanly with hydro-jetting and provided a full video report for the council. 10/10."
+              </p>
+</div>
+<div class="mt-8 pt-4 border-t border-slate-200/60 flex items-center justify-between text-[11px] text-slate-400 font-medium">
+<span>Hydro-Jet &amp; CCTV Sewer</span>
+<span>Verified Customer</span>
+</div>
+</div>
+</div>
+<!-- Slider Navigation Controls matching Plumco arrows -->
+<div class="flex items-center justify-center gap-4 mt-12">
+<button aria-label="Previous review" class="w-10 h-10 rounded-full border border-slate-200 flex items-center justify-center text-slate-600 hover:bg-slate-900 hover:text-white transition-colors">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<button aria-label="Next review" class="w-10 h-10 rounded-full border border-slate-200 flex items-center justify-center text-slate-600 hover:bg-slate-900 hover:text-white transition-colors">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+</div>
+</div>
+</section>
+<!-- END: TestimonialsSection -->
+<!-- BEGIN: ArticlesAndInsights -->
+<section class="py-24 bg-brand-surface border-t border-slate-100" data-purpose="articles-section" id="articles">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<!-- Header matching Plumco layout -->
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-12 border-b border-slate-200 pb-6">
+<div>
+<span class="text-xs font-bold text-slate-400 tracking-wider uppercase">Plumbing Insights</span>
+<h3 class="text-2xl font-extrabold text-slate-900 mt-1">Helpful Guides &amp; Local Advice</h3>
+</div>
+<div class="w-24 h-1.5 bg-slate-900 rounded-full mt-4 sm:mt-0"></div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- Featured Big Article on Left -->
+<article class="lg:col-span-6 bg-white rounded-2xl overflow-hidden border border-slate-100 shadow-sm group">
+<div class="aspect-w-16 aspect-h-10 h-64 overflow-hidden relative">
+<img alt="Modern white bathroom sink basin with sleek tapware" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1H3sxvgvF_Ef1j3G27OWL3X6MVxQG5lQ5vWP5djp-jISLICQIPteN9b8qyXtjk85FP1E4IjoH5vQaA6xn3EnpB510eU7JmYj5kq9TcDVWEqauJdxlTdJsdJcMtQR8NN6n0xr9tyB2zto2jt7MXuI9oKI17d8_LQ9BP54O0VQoPUqLjIRWSkQhc3Oa5ZXeFB0rRibhm8mfpeEgiBItCoFW3Nt2ydJJiaZRhZljD-XCAkzuitmTS2lS_A"/>
+</div>
+<div class="p-8">
+<div class="flex items-center gap-3 text-xs text-slate-400 font-medium mb-3">
+<span class="text-brand-coral font-bold uppercase">Problem Solving</span>
+<span>•</span>
+<span>May 19, 2024</span>
+</div>
+<h4 class="text-2xl font-bold text-slate-900 group-hover:text-brand-coral transition-colors mb-3">
+                How to unclog a bathroom drain without toxic chemicals
+              </h4>
+<p class="text-slate-500 text-sm leading-relaxed mb-6">
+                Why supermarket caustic drain cleaners damage Adelaide PVC and copper pipe joints, and how professional mechanical augers safely dissolve hair and soap scum.
+              </p>
+<a class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-900 hover:text-brand-coral" href="tel:+61413544898">
+                Read guide
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</a>
+</div>
+</article>
+<!-- 3 Smaller Stacked Articles on Right matching Plumco screenshot -->
+<div class="lg:col-span-6 space-y-6">
+<!-- Small Article 1 -->
+<article class="bg-white p-4 sm:p-5 rounded-xl border border-slate-100 shadow-sm flex flex-col sm:flex-row gap-5 items-center group">
+<div class="w-full sm:w-36 h-28 rounded-lg overflow-hidden flex-shrink-0">
+<img alt="Plumber with tools in Adelaide" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida/AEtjO1WN5gaTo1WHVl-K0GJL7ynPYFjuJ1m8tsU2mXlTWW1shdgwURMX_qQsCrn10NqRZhnghkfaHfocx2KLDR_KdoX3Gv3qlxlEBKsyYUh2U_Ru-SZ56dJ1XIiCkj5GglOYZuj-QPuV3qVwLnmqOkUfj5KTOTme2uYmlWTY-p456kg5JEkMWAYemLg6KQjijNecwHciYha6X4Wt02M9SQzUSyc9XzWH5P7YCUu2k6y3Fja2cIKC1t5dAkQNv_64"/>
+</div>
+<div class="flex-grow">
+<div class="flex items-center gap-2 text-[11px] text-slate-400 mb-1">
+<span class="text-brand-coral font-semibold">Repair</span>
+<span>•</span>
+<span>May 19, 2024</span>
+</div>
+<h5 class="text-base font-bold text-slate-900 group-hover:text-brand-coral transition-colors">
+                  Finding the right plumber in Adelaide: 5 license checks
+                </h5>
+<p class="text-xs text-slate-500 mt-1 line-clamp-2">
+                  Confirming SA Consumer and Business Services (CBS) master accreditation before hiring.
+                </p>
+</div>
+</article>
+<!-- Small Article 2 -->
+<article class="bg-white p-4 sm:p-5 rounded-xl border border-slate-100 shadow-sm flex flex-col sm:flex-row gap-5 items-center group">
+<div class="w-full sm:w-36 h-28 rounded-lg overflow-hidden flex-shrink-0">
+<img alt="Pipe fittings under sink" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida/AEtjO1VeZnZC7FwseYwO44Qedtrc7RN32Dt72GkMs34yw4GYAhKhNV1GYgKLGPqyS6fLKbzxRl9Y5d0BHDKqd79rKYgULsTPgzl68uyvYTQZhe0NeUmelwwfAhXjE3xwwfjp_r8bztYBj_XM5oCrzE6TdARpyzJo1ZzYww-B-pnkKF7pNkCS9yuT3B2o2UEPDwujT8TcnI1TPJ35-e2faO_JmqQfDJNMZIIdMoNMEJdMEuTJpztJIOFhJyzShYfN"/>
+</div>
+<div class="flex-grow">
+<div class="flex items-center gap-2 text-[11px] text-slate-400 mb-1">
+<span class="text-brand-coral font-semibold">Problem Solving</span>
+<span>•</span>
+<span>May 19, 2024</span>
+</div>
+<h5 class="text-base font-bold text-slate-900 group-hover:text-brand-coral transition-colors">
+                  Common plumbing leaks and what causes high water bills
+                </h5>
+<p class="text-xs text-slate-500 mt-1 line-clamp-2">
+                  Silent toilet cistern leaks and underground irrigation seepage explained.
+                </p>
+</div>
+</article>
+<!-- Small Article 3 -->
+<article class="bg-white p-4 sm:p-5 rounded-xl border border-slate-100 shadow-sm flex flex-col sm:flex-row gap-5 items-center group">
+<div class="w-full sm:w-36 h-28 rounded-lg overflow-hidden flex-shrink-0">
+<img alt="Clean porcelain bathroom toilet fixture" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZH3OcZsO-C-AoYaf_7uguj-HnK1sWpxkMpudp5-Ql-qZiVLWsG7QwVufOUKEpiFJFksQqzwiSA20QY5eudu9jR_cM7pA8_5-wEzJK7DQ68uH8BKn-DYHdlOh2LhyCrfnjkoh1zcQDurpvxo_Cvy0xVTiFZPtPd2KUhdkV7dcgGgvjMHpPiSObjc2Cvq766v-SxaGQFbI4eG6L4RX-ecZK8HbTZWxrLjdStilj3CGIELeMS9aVNUhgnA"/>
+</div>
+<div class="flex-grow">
+<div class="flex items-center gap-2 text-[11px] text-slate-400 mb-1">
+<span class="text-brand-coral font-semibold">Problem Solving</span>
+<span>•</span>
+<span>May 19, 2024</span>
+</div>
+<h5 class="text-base font-bold text-slate-900 group-hover:text-brand-coral transition-colors">
+                  What is a sewer cleanout &amp; how does it protect your home?
+                </h5>
+<p class="text-xs text-slate-500 mt-1 line-clamp-2">
+                  Locating your boundary inspection riser and preventing wastewater backflow.
+                </p>
+</div>
+</article>
+</div>
+</div>
+</div>
+</section>
+<!-- END: ArticlesAndInsights -->
+<!-- BEGIN: QuickCallToAction -->
+<section class="py-12 bg-white text-center border-t border-slate-100" data-purpose="bottom-cta">
+<div class="max-w-4xl mx-auto px-6">
+<h3 class="text-xl font-bold text-slate-900 mb-4">Have an urgent plumbing emergency or need a fixed quote?</h3>
+<p class="text-sm text-slate-500 mb-6">Our licensed plumbers are on call across North, South, East, and Western Adelaide.</p>
+<a class="inline-flex items-center gap-2 bg-slate-900 hover:bg-black text-white text-xs uppercase tracking-wider font-bold px-8 py-4 rounded-md transition-all shadow-lg hover:-translate-y-0.5" href="tel:+61413544898">
+<span>Contact Us ↗</span>
+<span class="text-brand-coral font-extrabold">+61 413 544 898</span>
+</a>
+</div>
+</section>
+<!-- END: QuickCallToAction -->
+</main>
+<!-- BEGIN: MainFooter -->
+<footer class="bg-white border-t border-slate-100 pt-16 pb-12" data-purpose="site-footer">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 pb-16 border-b border-slate-100">
+<!-- Footer Column 1: Brand & Bio -->
+<div class="lg:col-span-4 space-y-4">
+<div class="flex items-center gap-2">
+<div class="w-7 h-7 rounded bg-brand-coral flex items-center justify-center text-white font-bold text-base">
+<svg class="w-3.5 h-3.5 fill-current" viewbox="0 0 24 24">
+<path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"></path>
+</svg>
+</div>
+<span class="text-lg font-extrabold tracking-tight text-slate-900">
+              Tailored<span class="text-brand-coral">Plumbing</span>
+</span>
+</div>
+<p class="text-xs text-slate-400 leading-relaxed max-w-sm">
+            Adelaide's premier licensed master plumbers and gas fitters. Reliable, on-time, guaranteed service covering residential emergency call-outs and architectural bathroom renovations.
+          </p>
+<div class="text-xs font-semibold text-slate-700">
+            South Australian License: <span class="text-brand-coral">PGE 284102</span>
+</div>
+</div>
+<!-- Footer Column 2: Pages -->
+<div class="lg:col-span-2 space-y-3">
+<p class="text-xs font-bold text-slate-900 uppercase tracking-wider">Pages</p>
+<ul class="space-y-2 text-xs text-slate-500">
+<li><a class="hover:text-brand-coral transition-colors" href="#hero">Home V1</a></li>
+<li><a class="hover:text-brand-coral transition-colors" href="#about">About Us</a></li>
+<li><a class="hover:text-brand-coral transition-colors" href="#services">Our Services</a></li>
+<li><a class="hover:text-brand-coral transition-colors" href="#projects">Portfolio</a></li>
+<li><a class="hover:text-brand-coral transition-colors" href="#reviews">Testimonials</a></li>
+</ul>
+</div>
+<!-- Footer Column 3: Explore / Services -->
+<div class="lg:col-span-3 space-y-3">
+<p class="text-xs font-bold text-slate-900 uppercase tracking-wider">Explore Services</p>
+<ul class="space-y-2 text-xs text-slate-500">
+<li><a class="hover:text-brand-coral transition-colors" href="#services">Acoustic Leak Detection</a></li>
+<li><a class="hover:text-brand-coral transition-colors" href="#services">Continuous Flow Hot Water</a></li>
+<li><a class="hover:text-brand-coral transition-colors" href="#services">High-Pressure Hydro Jetting</a></li>
+<li><a class="hover:text-brand-coral transition-colors" href="#services">Backflow Prevention Testing</a></li>
+<li><a class="hover:text-brand-coral transition-colors" href="#services">Whole Home Water Softening</a></li>
+</ul>
+</div>
+<!-- Footer Column 4: Contact & Hours -->
+<div class="lg:col-span-3 space-y-3">
+<p class="text-xs font-bold text-slate-900 uppercase tracking-wider">Direct Dispatch</p>
+<div class="space-y-2 text-xs text-slate-600">
+<p class="font-bold text-slate-900 text-sm">
+<a class="text-brand-coral hover:underline" href="tel:+61413544898">+61 413 544 898</a>
+</p>
+<p>Adelaide Metro, South Australia</p>
+<div class="pt-2 text-[11px] text-slate-500 space-y-1">
+<p>Mon - Sat: 7:00 AM - 9:00 PM</p>
+<p class="text-brand-coral font-semibold">Sunday: 24/7 Emergency Dispatch</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Credits matching Webflow Plumco format -->
+<div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-[11px] text-slate-400 gap-4">
+<p>© 2026 Tailored Plumbing Solutions. All rights reserved. Registered Master Plumber PGE 284102.</p>
+<div class="flex items-center gap-6">
+<a class="hover:text-slate-600" href="#">Privacy Policy</a>
+<a class="hover:text-slate-600" href="#">Terms of Service</a>
+<a class="text-brand-coral font-bold" href="tel:+61413544898">Emergency Call</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- END: MainFooter -->
+<!-- BEGIN: InteractiveScripts -->
+<script data-purpose="smooth-navigation">
+    // Smooth scroll handler for anchor links with header offset
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+        
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+          e.preventDefault();
+          const headerOffset = 80;
+          const elementPosition = targetElement.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+          
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  </script>
+<!-- END: InteractiveScripts -->
+</body></html>
